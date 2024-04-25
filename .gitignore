@@ -1,8 +1,0 @@
-.roperproject
-*.pyproject.user
-*.pyc
-example_rc.py
-build
-dist
-action-cli
-example/version.py
