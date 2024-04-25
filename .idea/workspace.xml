@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4798f6dc-1eb6-4013-aee7-b72c2b0dbc95" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/RuoYi-PC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RuoYi-PC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/Login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/Menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/monitor/Cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/monitor/Job.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/monitor/JobLog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/monitor/Logininfor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/monitor/Online.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/monitor/Operlog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/monitor/Server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/Config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/Dept.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/Menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/Notice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/Post.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/Role.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/User.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/dict/Data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/dict/Type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/tool/Gen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/CircularReveal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/FileWatcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/FpsItem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/define.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example.pyproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/Log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/RequestsClient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/SettingsHelper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/example.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/example_rc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/App.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/chart/BarChart.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/chart/BubbleChart.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/chart/LineChart.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/chart/PieChart.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/chart/PolarAreaChart.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/chart/RadarChart.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/chart/ScatterChart.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/component/CodeExpander.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/component/QBDAppBar.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/component/QBDAutoSuggestBox.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/component/QBDCheckBox.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/component/QBDColumnRadioButtons.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/component/QBDContentDialog.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/component/QBDExpander.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/component/QBDIconButton.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/component/QBDTableView.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/component/QBDTreeView.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/component/QBDWindow.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/global/GlobalModel.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/global/ItemsFooter.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/global/ItemsOriginal.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/global/Lang.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/global/qmldir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/js/JSTools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/Awesome.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/Home.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/Settings.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/Test.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/monitor/cache/cacheList.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/monitor/cache/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/monitor/job/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/monitor/online/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/monitor/server/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/system/config/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/system/dept/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/system/dict/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/system/log/logininfor.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/system/log/operlog.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/system/menu/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/system/notice/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/system/post/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/system/role/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/page/system/user/index.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/window/AboutWindow.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/window/CrashWindow.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/window/FluentInitializrWindow.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/window/HotloadWindow.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/window/LoginWindow.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/window/MainWindow.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/window/PageWindow.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/window/SingleInstanceWindow.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/window/SingleTaskWindow.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/qml/window/StandardWindow.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/banner_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/banner_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/banner_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/bg_home_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/bg_scenic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Acrylic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/AnimatedIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/AnimatedVisualPlayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/AnimationInterop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/AppBarButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/AppBarSeparator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/AppBarToggleButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/AutoSuggestBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/AutomationProperties.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/BreadcrumbBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/CalendarDatePicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/CalendarView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Canvas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Checkbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Clipboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ColorPaletteResources.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ColorPicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ComboBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/CommandBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/CommandBarFlyout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/CompactSizing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ConnectedAnimation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ContentDialog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/CreateMultipleWindows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/DataGrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/DatePicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/DropDownButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/EasingFunction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Expander.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/FilePicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/FlipView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Flyout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/GridView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/HyperlinkButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/IconElement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ImplicitTransition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/InfoBadge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/InfoBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/InkCanvas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/InkToolbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/InputValidation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ItemsRepeater.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ListBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ListView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/MediaPlayerElement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/MenuBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/MenuFlyout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/NavigationView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/NumberBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/PageTransition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ParallaxView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/PasswordBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/PersonPicture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/PipsPager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Pivot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ProgressBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ProgressRing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/PullToRefresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/RadialGradientBrush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/RadioButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/RadioButtons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/RatingControl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/RelativePanel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/RepeatButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/RevealFocus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/RichEditBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/RichTextBlock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ScrollViewer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/SemanticZoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Shape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Slider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Sound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/SplitButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/SplitView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/StackPanel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/StandardUICommand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/SwipeControl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/TabView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/TeachingTip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/TextBlock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/TextBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ThemeTransition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/TimePicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/TitleBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ToggleButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ToggleSplitButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ToggleSwitch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/ToolTip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/TreeView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/VariableSizedWrapGrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/Viewbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/WebView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/control/XamlUICommand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/ic_home_github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/image_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/left_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/left_logo11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/logo_openai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/qrcode_wx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/qrcode_zfb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/ruoyi/ruoyi01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/ruoyi/system/user/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/ruoyi/system/user/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/ruoyi/system/user/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/ruoyi/system/user/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/ruoyi/system/user/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/ruoyi/system/user/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/image/ruoyi/system/user/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_11.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/avatar_9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/res/svg/home_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/LoginSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/monitor/CacheSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/monitor/JobLogSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/monitor/JobSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/monitor/LogininforSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/monitor/OnlineSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/monitor/OperlogSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/monitor/ServerSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/system/ConfigSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/system/DeptSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/system/MenuSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/system/NoticeSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/system/PostSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/system/RoleSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/system/UserSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/system/dict/DataSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slots/system/dict/TypeSlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Permission.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2fashwJUHgaDqf66Qfdg8wEycyU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/WorkSpace/FluentUI/PySide6-FluentUI-QML-RuoYi-Vue/RuoYi-PC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RuoYi-PC" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RuoYi-PC" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4798f6dc-1eb6-4013-aee7-b72c2b0dbc95" name="Changes" comment="" />
+      <created>1714050646971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714050646971</updated>
+      <workItem from="1714050648117" duration="495000" />
+      <workItem from="1714051343538" duration="997000" />
+      <workItem from="1714052416384" duration="471000" />
+      <workItem from="1714054854663" duration="396000" />
+      <workItem from="1714055254268" duration="128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RuoYi_PC$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1714055289889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
+    <SUITE FILE_PATH="coverage/RuoYi_PC$main.coverage" NAME="main Coverage Results" MODIFIED="1714052774226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
+</project>
