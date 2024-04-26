@@ -1,76 +1,54 @@
-name: Windows
-on: 
+name: Build and Deploy PySide6 QML App on Windows
+ 
+on:
   push:
-    paths:
-      - 'example/**'
-      - 'FluentUI/**'
-      - '.github/workflows/windows.yml'
+    branches: [ main ]
   pull_request:
-    paths:
-      - 'example/**'
-      - 'FluentUI/**'
-      - '.github/workflows/windows.yml'
-      
+    branches: [ main ]
+ 
 jobs:
   build:
-    name: Build
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [windows-2022]
-        include:
-          - qt_ver: 6.5.3        
-            qt_arch: win64_msvc2019_64
-            msvc_arch: x64
-            qt_arch_install: msvc2019_64  
-    env:
-      targetName: example.exe
-      fileName: example
+    runs-on: windows-latest
+ 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v3
-        with:
-          submodules: recursive
-             
-      - name: install env   
-        env:
-          archiveName: ${{ env.fileName }}-${{ matrix.qt_arch }}-${{ matrix.qt_ver }}
-          msvcArch: ${{ matrix.msvc_arch }}          
-        shell: pwsh
-        run: |
-          pip install mako
-          pip install PySide6
-          pip install pyinstaller
-          
-      - name: package  
-        env:
-          archiveName: ${{ env.fileName }}-${{ matrix.qt_arch }}-${{ matrix.qt_ver }}
-          msvcArch: ${{ matrix.msvc_arch }}          
-        shell: pwsh
-        run: |
-          python ./Scripts/qrc2py.py ./example/resource/example.qrc ./example/resource/example_rc.py
-          python ./Scripts/genversion.py
-          pyinstaller -y ./example/main.spec
-  
-      - uses: actions/upload-artifact@v2
-        if: startsWith(github.event.ref, 'refs/tags/') == false
-        with:
-          name: ${{ env.fileName }}_${{ matrix.qt_arch }}_PySide6
-          path: dist
-
-      - name: inno setup install
-        if: startsWith(github.event.ref, 'refs/tags/')
-        uses: zhuzichu520/inno-setup-action@v1.0.1
-        with:
-          filepath: ./action-cli/InstallerScript.iss
-
-      - name: uploadRelease
-        if: startsWith(github.event.ref, 'refs/tags/')
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./action-cli/installer.exe
-          asset_name: ${{ env.fileName }}_${{ github.ref_name }}_${{ matrix.qt_arch }}_PySide6.exe
-          tag: ${{ github.ref }}
-          overwrite: true     
-
+    - uses: actions/checkout@v2
+ 
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+ 
+    - name: Install PySide6 and QML dependencies
+      run: pip install PySide6 --extra-index-url https://repo.pypi.org/simple/
+ 
+    - name: Build QML files
+      run: |
+        cd path/to/your/qml/files
+        pyside6-rcc resources.qrc -o resources.py
+        pyside6-lupdate your_qml_app.pro
+    - name: Deploy QML App
+      uses: wslyvh/upload-artifact@master
+      with:
+        path: path/to/your/qml/files/your_qml_app.exe
+        name: qml-app-artifact
+ 
+  deploy:
+    runs-on: self-hosted
+    needs: build
+    if: github.ref == 'refs/heads/main'
+ 
+    steps:
+    - name: Download Artifact
+      uses: actions/download-artifact@master
+      with:
+        name: qml-app-artifact
+        path: ./
+ 
+    - name: Deploy to Server
+      uses: easingthemes/ssh-deploy@v2.1.5
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        ARTIFACT_NAME: qml-app-artifact
+        REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+        REMOTE_USER: ${{ secrets.REMOTE_USER }}
+        REMOTE_DIR: ${{ secrets.REMOTE_DIR }}
