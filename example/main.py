@@ -5,7 +5,7 @@ from PySide6.QtCore import QProcess
 from PySide6.QtQuick import QQuickWindow,QSGRendererInterface
 from PySide6.QtGui import QGuiApplication
 from PySide6.QtQml import QQmlApplicationEngine
-import FluentUI
+# import FluentUI
 from AppInfo import AppInfo
 from helper.SettingsHelper import SettingsHelper
 # 引入槽函数
@@ -86,7 +86,7 @@ def main():
     rootContext.setContextProperty("UserSlot", UserSlot())
     rootContext.setContextProperty("LoginSlot", LoginSlot())
 
-    FluentUI.init(engine)
+    # FluentUI.init(engine)
     print(engine.importPathList())
     qml_file = "qrc:/example/qml/App.qml"
     engine.load(qml_file)
