@@ -33,7 +33,7 @@ from utils.Permission import Permission
 from component.CircularReveal import CircularReveal
 from component.FileWatcher import FileWatcher
 from component.FpsItem import FpsItem
-import example.helper.Log as Log
+import helper.Log as Log
 
 import os
 import subprocess
@@ -45,7 +45,7 @@ def main():
     try:
         print("===================================================")
         subprocess.run(['pyside6-rcc', './resource/example.qrc', '-o', './resource/example_rc.py'], check=True)
-        import example.resource.example_rc as rc
+        import resource.example_rc as rc
         print("执行 pyside6-rcc example.qrc -o example_rc.py 命令")
         print("===================================================")
     except subprocess.CalledProcessError as e:
