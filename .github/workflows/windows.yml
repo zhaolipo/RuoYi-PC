@@ -41,6 +41,7 @@ jobs: # 定义工作流程中的工作。
           pip install mako
           pip install PySide6-FluentUI-QML
           pip install pyinstaller
+          pip install requests
           
       - name: package  
         env:
