@@ -39,7 +39,8 @@ jobs: # 定义工作流程中的工作。
         shell: pwsh
         run: |
           pip install mako
-          pip install PySide6-FluentUI-QML
+          pip install PySide6
+          pip install QtQuick
           pip install pyinstaller
           pip install requests
           
