@@ -2,7 +2,7 @@
 from typing import Tuple
 from PySide6.QtCore import QObject, Slot, Signal, Property, QPoint, QRect, QPropertyAnimation, QPointF, Qt, QSize, QEasingCurve
 from PySide6.QtGui import QPainter, QImage, QPainterPath
-from PySide6.QtQuick import QQuickPaintedItem, QQuickItem, QQuickItemGrabResult, QSharedPointer_QQuickItemGrabResult
+from PySide6.QtQuick import QQuickPaintedItem, QQuickItem, QQuickItemGrabResult
 from PySide6.QtQml import (QmlNamedElement)
 
 QML_IMPORT_NAME = "example"
@@ -25,7 +25,6 @@ class CircularReveal(QQuickPaintedItem):
         self._anim: QPropertyAnimation = QPropertyAnimation(
             self, b"radius", self)
         self._center: QPoint = None
-        self._grabResult: QSharedPointer_QQuickItemGrabResult = None
         self.setVisible(False)
         self._anim.setDuration(333)
         self._anim.setEasingCurve(QEasingCurve.Type.OutCubic)
