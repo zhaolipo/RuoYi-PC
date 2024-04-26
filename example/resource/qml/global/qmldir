@@ -1,0 +1,4 @@
+singleton ItemsOriginal 1.0 ItemsOriginal.qml
+singleton ItemsFooter 1.0 ItemsFooter.qml
+singleton GlobalModel 1.0 GlobalModel.qml
+singleton Lang 1.0 Lang.qml
